@@ -26,5 +26,5 @@ git commit -m "$MESSAGE"
 git push 
 git tag "$TAG"
 git push --tags
-pod lib lint YQKingfisher.podspec
-pob trunk push YQKingfisher.podspec --allow-warnings 
+pod lib lint YQKingfisher.podspec --allow-warnings
+pod trunk push YQKingfisher.podspec --allow-warnings 
