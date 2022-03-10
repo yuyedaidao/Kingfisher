@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YQKingfisher"
-  s.version      = "6.3.1.1"
+  s.version      = "6.3.1.2"
   s.summary      = "A lightweight and pure Swift implemented library for downloading and cacheing image from the web."
 
   s.description  = <<-DESC
@@ -15,16 +15,16 @@ Pod::Spec.new do |s|
                    * Independent components. You can use the downloader or caching system separately. Or even create your own cache based on Kingfisher's code.
                    * Options to decompress the image in background before render it, which could improve the UI performance.
                    * A category over `UIImageView` for setting image from an url directly.
-                   * 此版本是去除了SwiftUI支持之后的版本，可以在Xcode13上运行，最低支持iOS10
+                   * 此版本是去除了SwiftUI支持之后的版本,可以在Xcode13上运行,最低支持iOS10
                    DESC
 
-  s.homepage     = "https://github.com/onevcat/Kingfisher"
+  s.homepage     = "https://github.com/yuyedaidao/Kingfisher"
   s.screenshots  = "https://raw.githubusercontent.com/onevcat/Kingfisher/master/images/logo.png"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.authors            = { "onevcat" => "onevcat@gmail.com" }
-  s.social_media_url   = "https://github.com/onevcat"
+  s.authors            = { "yuyedaidao" => "wyqpadding@gmail.com" }
+  s.social_media_url   = "https://github.com/yuyedaidao"
 
   s.swift_versions = ['5.0']
 
